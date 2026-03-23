@@ -1,0 +1,48 @@
+{
+  "name": "mcp-cn-devtools",
+  "version": "1.0.0",
+  "description": "MCP Server for Chinese Developer Tools - Connect AI coding assistants (Cline, Cursor, Claude Code) to Chinese dev platforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "chinese-developer-tools",
+    "ai-coding",
+    "cursor",
+    "cline",
+    "claude-code"
+  ],
+  "author": "Revenue Lobster <shentaobj@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toyball860721/mcp-cn-devtools"
+  },
+  "bugs": {
+    "url": "https://github.com/toyball860721/mcp-cn-devtools/issues"
+  },
+  "homepage": "https://github.com/toyball860721/mcp-cn-devtools#readme"
+}
