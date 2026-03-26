@@ -201,8 +201,8 @@ async function handleSearch(args: { query: string; platform?: string; limit?: nu
           ],
           total: 1,
           note: "免费版每日限制 10 次搜索。升级到专业版 (¥29/月) 获取无限搜索和高级过滤。"
-        },
-      },
+        })
+      }
     ],
   };
 }
@@ -220,7 +220,7 @@ async function handleTrending(args: { platform?: string; category?: string; limi
           trending: [
             {
               topic: "AI Coding 助手实战",
-             热度：15420,
+              heat: 15420,
               platform: "juejin",
               trend: "up"
             },
